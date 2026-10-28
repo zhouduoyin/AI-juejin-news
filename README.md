@@ -21,6 +21,16 @@ AI-juejin-news/
 | 后端 | Python 3.13、FastAPI、SQLAlchemy（async）、aiomysql、Redis、JWT |
 | 前端 | Vue 3、Vite 7、Pinia、Vue Router、Vant 4、Axios、marked + DOMPurify |
 
+## 界面预览
+
+移动端页面截图（390 × 844 视口，使用 `database.sql` 里的示例数据）：
+
+| 首页 | 新闻详情 | 分类 |
+| --- | --- | --- |
+| ![首页](docs/screenshots/news-home.jpg) | ![新闻详情](docs/screenshots/news-detail.jpg) | ![分类](docs/screenshots/news-category.jpg) |
+| **AI 问答** | **我的** | **登录** |
+| ![AI 问答](docs/screenshots/news-aichat.jpg) | ![我的](docs/screenshots/news-my.jpg) | ![登录](docs/screenshots/news-login.jpg) |
+
 ## 快速开始
 
 ### 1. 初始化数据库
@@ -60,6 +70,8 @@ npm run dev
 ```
 
 前端请求地址在 `xwzx-news/src/config/api.js`，默认指向 `http://127.0.0.1:8000`。
+
+「AI 问答」需要模型 Key：在 `xwzx-news/.env` 里写 `VITE_AI_API_KEY=你的Key`，不要提交到仓库（未配置时页面会提示填写）。
 
 ## 文档
 
