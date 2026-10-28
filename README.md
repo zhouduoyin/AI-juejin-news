@@ -8,10 +8,7 @@
 AI-juejin-news/
 ├─ toutiao_backend/            # Python FastAPI 后端（SQLAlchemy + MySQL + Redis）
 ├─ xwzx-news/                  # Vue 3 + Vite 移动端前台（Vant 4 + Pinia）
-├─ database.sql                # MySQL 建库建表 + 示例数据
-├─ API接口规范文档.md
-├─ 项目后端设计说明文档.md
-└─ 第六章_AI掘金头条-缓存和调用模型.pdf
+└─ database.sql                # MySQL 建库建表 + 示例数据
 ```
 
 ## 技术栈
@@ -72,12 +69,6 @@ npm run dev
 前端请求地址在 `xwzx-news/src/config/api.js`，默认指向 `http://127.0.0.1:8000`。
 
 「AI 问答」需要模型 Key：在 `xwzx-news/.env` 里写 `VITE_AI_API_KEY=你的Key`，不要提交到仓库（未配置时页面会提示填写）。
-
-## 文档
-
-- [API接口规范文档.md](API接口规范文档.md)
-- [项目后端设计说明文档.md](项目后端设计说明文档.md)
-- 《第六章_AI掘金头条-缓存和调用模型.pdf》
 
 ## 说明
 
