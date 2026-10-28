@@ -11,7 +11,7 @@ export const apiConfig = {
 
 export const aiChatConfig = {
   // API地址 (Anthropic Messages API)
-  apiEndpoint: 'http://192.168.0.55/v1/messages',
+  apiEndpoint: 'http://your-gateway.example.com/v1/messages',
 
   // API Key 通过环境变量注入（VITE_AI_API_KEY），不要提交真实 Key
   apiKey: import.meta.env.VITE_AI_API_KEY ?? 'your-api-key-here',
