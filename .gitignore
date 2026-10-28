@@ -1,0 +1,24 @@
+# Python / FastAPI
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# 编辑器与系统
+.idea/
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本地环境与日志
+.env
+.env.*
+*.log

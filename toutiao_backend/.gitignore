@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Cache 运行时数据（保留 cache/*.py 源码）
+cache/*
+!cache/*.py
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
